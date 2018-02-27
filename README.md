@@ -7,6 +7,8 @@ Encipher encrypts the user inputted data into AES-256 bit encryption which is th
 The confidential information can then be revealed by clicking on the decrypt button where it displays the decrypted information but does
 not save the exposed info to the database.
 ![alt text](https://github.com/Psifer/Encipher/blob/master/PasswordSaver/EncipherImages/encipher%20passSaver%20page.png)
+![alt text](https://github.com/Psifer/Encipher/blob/master/PasswordSaver/EncipherImages/encipher%20passSaver%20page1.png)
+![alt text](https://github.com/Psifer/Encipher/blob/master/PasswordSaver/EncipherImages/encipher%20passSaver%20page2.png)
 
 Encipher also includes a password generator where you can select the type of character and length of password. Allowing
 for optimal security if you create a new random password for each website account you create.
