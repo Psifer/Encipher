@@ -48,15 +48,14 @@ namespace PasswordSaver
             
             Login x = new Login();
             x.ShowDialog();
-            StartTimer();
-            var database = new LiteDatabase("dbFile.db");
-            GetVector();
-
             if (success != true)
             {
                 Close();
             }
-            else if(success == true && database.CollectionExists("WebsiteInfo") == true)
+            StartTimer();
+            var database = new LiteDatabase("dbFile.db");
+            GetVector();
+            if(success == true && database.CollectionExists("WebsiteInfo") == true)
             {
                 var db = new LiteDatabase("dbFile.db");
                 var col = db.GetCollection<WebsiteInfo>("WebsiteInfo");
