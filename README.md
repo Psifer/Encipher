@@ -1,4 +1,6 @@
 # Encipher
+**Disclaimer** This was an exercise to help me learn aspects of C#. There are currently security flaws present given the nature of how the data is stored. Do not entrust this program with your utmost confidential information. It can be adapted to follow common practice of keeping the encryption keys seperate of the encrypted data.
+
 Encipher is C# Windows Form App where you can securely store your user login information offline. Encipher incorporates 
 Google Authenticator to login into the program so no password is ever needed to be remembered in order to login.
 ![alt text](https://github.com/Psifer/Encipher/blob/master/PasswordSaver/EncipherImages/encipher%20createaccount%20page.png)![alt text](https://github.com/Psifer/Encipher/blob/master/PasswordSaver/EncipherImages/encipher%20login%20page.png)
